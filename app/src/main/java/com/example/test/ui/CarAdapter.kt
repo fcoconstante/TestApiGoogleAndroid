@@ -1,9 +1,10 @@
-package com.example.test
+package com.example.test.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.test.R
 
 class CarAdapter(val items: List<String>) : RecyclerView.Adapter<CarAdapter.ViewHolderCar>() {
 
